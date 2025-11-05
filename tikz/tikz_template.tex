@@ -1,0 +1,27 @@
+
+\documentclass[]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{amsmath} % for \DeclareMathOperator
+\usepackage{amssymb} % for \mathbb
+\usepackage[svgnames]{xcolor} % Add xcolor package for more color options
+\usetikzlibrary{arrows.meta, positioning}
+
+\DeclareMathOperator{\SU}{SU}
+\DeclareMathOperator{\Rep}{Rep}
+\DeclareMathOperator{\Vect}{Vec}
+
+% Define colors
+\definecolor{myblue}{RGB}{220, 230, 245} % A light, muted blue
+\definecolor{mygreen}{RGB}{220, 240, 220} % A light, muted green
+\definecolor{myorange}{RGB}{255, 150, 0}   % A modest orange for highlighting
+
+%\pgfmathsetmacro{\symdist}{.5}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \draw (1,1) -- (2,2);
+\end{tikzpicture}
+
+\end{document}
