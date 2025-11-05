@@ -32,7 +32,7 @@ callout-icon: false
 
 # First Section Title
 
-<!--- Hidden commans for math symbols has to be placed after starting a first slide --->
+<!--- Hidden commands for math symbols has to be placed after starting a first slide --->
 :::{.hidden}
 
 $$
@@ -57,7 +57,7 @@ Here are the notes for the first section title page.
 
 ## Summary Title
 
-<!--- Thank you pup up --->
+<!--- Thank you pop up --->
 
 :::{.fragment}
 
