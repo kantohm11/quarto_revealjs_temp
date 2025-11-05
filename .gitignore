@@ -1,0 +1,76 @@
+# Git ignore for Quarto reveal.js slides
+# Purpose: ignore generated outputs, cache, editor/OS files, and common virtual envs
+
+# -----------------
+# System / Editors
+# -----------------
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# -----------------
+# Quarto
+# -----------------
+# Quarto working directories and caches
+.quarto/
+.quarto_cache/
+.quarto_env/
+_render/
+_site/
+_output/
+output/
+*_files/
+
+# Quarto preview / temporary files
+.quarto_preview/
+
+# Common generated documents from rendering
+*.html
+!partials/*.html
+*.nb.html
+*.pdf
+*.docx
+*.pptx
+
+# -----------------
+# reveal.js / web build
+# -----------------
+# node_modules and common JS build outputs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local reveal.js build dirs (if created during export)
+revealjs/
+.revealjs/
+
+# -----------------
+# Languages / environments
+# -----------------
+# Python
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Misc
+Thumbs.db
+
+# If you want to keep rendered HTML in the repo, remove the *.html and related lines above.

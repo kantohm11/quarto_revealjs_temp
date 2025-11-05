@@ -1,0 +1,66 @@
+---
+title: "Title"
+author: "**Author**"
+institute: "Institution"
+venue: "@ Venue"
+format: 
+    revealjs:
+        slide-number: "c"
+        theme: [default,custom.scss]
+        template-partials:
+            - "partials/title-slide.html"
+            - "partials/toc-slide.html"
+        auto-stretch: false
+        crossrefs-hover: true
+        toc: true
+        toc-depth: 1
+        include-after-body: partials/toc-add.html
+        chalkboard: true
+bibliography: references.bib
+width: 1280
+height: 720
+html-math-method: mathjax
+callout-appearance: default
+callout-icon: false
+---
+
+:::{#toc}
+:::
+
+# First Section Title
+
+<!--- Hidden commans for math symbols has to be placed after starting a first slide --->
+:::{.hidden}
+$$
+\DeclareMathOperator{\sslash}{\mathbin{/\mkern-6mu/}}
+\DeclareMathOperator{\Fib}{Fib}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Rep}{Rep}
+\DeclareMathOperator{\Mod}{Mod}
+$$
+:::
+
+:::{.notes}
+Here are the notes for the first section title page.
+:::
+
+## First Slide Title
+
+:::{.notes}
+Here are the notes for the first page in the first section.
+:::
+
+## Summary Title
+
+<!--- Thank you pup up --->
+:::{.fragment}
+:::{.absolute bottom=100 right=200}
+::: centered-bordered-box
+*Thank you !!*
+:::
+:::
+:::
+
+## References
+
