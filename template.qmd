@@ -24,13 +24,17 @@ callout-appearance: default
 callout-icon: false
 ---
 
+<!-- put empty lines before and after any colon fences to avoid parsing issues in VS Code -->
+
 :::{#toc}
+
 :::
 
 # First Section Title
 
 <!--- Hidden commans for math symbols has to be placed after starting a first slide --->
 :::{.hidden}
+
 $$
 \DeclareMathOperator{\sslash}{\mathbin{/\mkern-6mu/}}
 \DeclareMathOperator{\Fib}{Fib}
@@ -39,27 +43,34 @@ $$
 \DeclareMathOperator{\Rep}{Rep}
 \DeclareMathOperator{\Mod}{Mod}
 $$
+
 :::
 
 :::{.notes}
+
 Here are the notes for the first section title page.
+
 :::
 
 ## First Slide Title
 
-:::{.notes}
-Here are the notes for the first page in the first section.
-:::
 
 ## Summary Title
 
 <!--- Thank you pup up --->
+
 :::{.fragment}
+
 :::{.absolute bottom=100 right=200}
+
 ::: centered-bordered-box
+
 *Thank you !!*
+
 :::
+
 :::
+
 :::
 
 ## References
